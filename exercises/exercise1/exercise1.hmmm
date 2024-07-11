@@ -1,0 +1,21 @@
+0 read r1
+1 setn r2 3
+2 setn r3 4
+3 setn r4 5
+4 setn r5 10
+5 jeqzn r1 8
+6 jltzn r1 13
+7 jgtzn r1 17
+8 mul r1 r1 r1
+9 add r1 r1 r5
+10 div r1 r1 r4
+11 write r1
+12 halt
+13 mul r1 r1 r2
+14 sub r1 r1 r3
+15 write r1
+16 halt
+17 div r1 r1 r4
+18 write r1
+19 halt
+# exercise_1_22-b2210356067
